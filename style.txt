@@ -1,0 +1,154 @@
+Created 09/2020
+body {
+    font-family: "Open Sans", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h5, a, #number, #email, p, #lastName, #firstName {
+    font-family: "Bangers", cursive;
+}
+
+.navbar {
+    background-color: #2F4F4F;
+}
+
+.media{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#diet {
+    border: 10px solid #2F4F4F;
+    background:#778899;
+    width: 290px;
+}
+
+#profileName{
+    border: 10px solid #2F4F4F;
+    background:#778899;
+    width: 130px;
+}
+
+#profilePic {
+    border: 10px solid #2F4F4F;
+    background:#778899;
+}
+
+#dietFoods{
+    border: 10px solid #2F4F4F;
+    background:#778899;
+}
+
+#quote{
+    border: 10px solid #2F4F4F;
+    background:#778899;
+    width: 330px;
+}
+
+#accordion{
+    border: 10px solid #2F4F4F;
+    background:#778899;
+}
+
+.card{
+    background: #778899;
+}
+
+#skills{
+    border: 10px solid #2F4F4F;
+    width: 90px;
+    margin: auto;
+    background:#778899;
+}
+
+#dietTitle{
+    border: 10px solid #2F4F4F;
+    width: 200px;
+    background:#778899;
+}
+
+.breadcrumb{
+   background-color:  #778899;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(#DCDCDC, #808080, #778899);
+    color: #2F4F4F;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.carousel {
+    border: solid black;
+}
+
+.site-footer {
+    background-image: linear-gradient(#808080,#778899);
+    padding: 20px 0;
+}
+
+a, #number, #email{
+    color:#2F4F4F;
+}
+
+.pulseContainer:hover #profilePic {
+    opacity: 0.3;
+}
+  
+.pulseContainer:hover .pulseMiddle {
+    opacity: 1;
+}
+ 
+
+.pitchContainer:hover #profilePic {
+    opacity: 0.3;
+}
+  
+.pitchContainer:hover .pitchMiddle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #2F4F4F;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+ .pitchMiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 60%;
+    left: 30%;
+    text-align: center;
+}
+
+.pulseMiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 70%;
+    left: 40%;
+    text-align: center;
+}
+ 
+#reserveModal .modal-header {
+    background-color: #17A2B8;
+    color: white; }
